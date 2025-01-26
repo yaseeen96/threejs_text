@@ -90,27 +90,27 @@ fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
   }
   console.timeEnd("donuts");
 
-  gui.add(text.geometry.parameters.options, "bevelEnabled");
-  gui
-    .add(text.geometry.parameters.options, "bevelThickness")
-    .min(0)
-    .max(1)
-    .step(0.001);
-  gui
-    .add(text.geometry.parameters.options, "bevelSize")
-    .min(0)
-    .max(1)
-    .step(0.001);
-  gui
-    .add(text.geometry.parameters.options, "bevelOffset")
-    .min(0)
-    .max(1)
-    .step(0.001);
-  gui
-    .add(text.geometry.parameters.options, "bevelSegments")
-    .min(0)
-    .max(100)
-    .step(1);
+  //   gui.add(text.geometry.parameters.options, "bevelEnabled");
+  //   gui
+  //     .add(text.geometry.parameters.options, "bevelThickness")
+  //     .min(0)
+  //     .max(1)
+  //     .step(0.001);
+  //   gui
+  //     .add(text.geometry.parameters.options, "bevelSize")
+  //     .min(0)
+  //     .max(1)
+  //     .step(0.001);
+  //   gui
+  //     .add(text.geometry.parameters.options, "bevelOffset")
+  //     .min(0)
+  //     .max(1)
+  //     .step(0.001);
+  //   gui
+  //     .add(text.geometry.parameters.options, "bevelSegments")
+  //     .min(0)
+  //     .max(100)
+  //     .step(1);
 });
 // const textGeometry = new THR();
 // scene.add(cube);
